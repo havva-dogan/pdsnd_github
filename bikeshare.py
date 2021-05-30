@@ -44,7 +44,7 @@ def get_filters():
         day = input("Would you like to see data for which day?\n")
         day = day.lower()
         
-    print('-'*50)
+    print('-'*150)
     return (city, month, day)
             
 def load_data(city, month, day):
